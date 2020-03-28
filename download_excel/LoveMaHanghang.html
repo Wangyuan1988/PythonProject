@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body style="height: 100%; margin: 0">
+    <div id="container" style="height: 100%"></div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+    <script type="text/javascript">
+        var dom = document.getElementById("container");
+        var myChart = echarts.init(dom, 'light');
+        var app = {};
+        option = null;
+        app.title = '图书统计'
+
+        var downloadJson = {
+            "北京联合出版有限责任公司": 10,
+            "山东美术出版社有限公司": 10,
+            "长江少年儿童出版社有限公司": 10,
+            "文化发展出版社有限公司": 10,
+            "北京科学技术出版社有限公司": 11,
+            "中国大地出版社": 11,
+            "青岛出版社有限公司": 14,
+            "应急管理出版社有限公司": 16,
+            "世界图书出版有限公司": 18,
+            "吉林美术出版社有限责任公司": 20,
+            "河北教育出版社有限责任公司": 20,
+            "吉林出版集团股份有限公司": 22,
+            "北方妇女儿童出版社有限责任公司": 24,
+            "明天出版社有限公司": 36,
+            "中国人口出版社": 44,
+            "二十一世纪出版社集团有限公司": 89
+        };
+
+        var themeJson = {
+            "定价区间 280-300元": 1,
+            "定价区间 220-240元": 1,
+            "定价区间 180-200元": 2,
+            "定价区间 160-180元": 4,
+            "定价区间 140-160元": 7,
+            "定价区间 120-140元": 6,
+            "定价区间 100-120元": 12,
+            "定价区间 80-100元": 18,
+            "定价区间 60-80元": 19,
+            "定价区间 40-60元": 22,
+            "定价区间 20-40元": 155,
+            "定价区间 0-20元": 253,
+        };
+
+        var builderJson = {
+            "all": 500,
+            "charts": downloadJson,
+            "components": themeJson,
+            "ie": 9743
+        };
+
+        var canvas = document.createElement('canvas');
+        var ctx = canvas.getContext('2d');
+        canvas.width = canvas.height = 100;
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.globalAlpha = 0.08;
+        ctx.font = '20px Microsoft Yahei';
+        ctx.translate(50, 50);
+        ctx.rotate(-Math.PI / 4);
+
+        option = {
+            backgroundColor: {
+                type: 'pattern',
+                image: canvas,
+                repeat: 'repeat'
+            },
+            tooltip: {},
+            title: [{
+                text: '2019年末少儿绘本数据分析',
+                subtext: '',
+                x: '30%',
+                textAlign: 'center'
+            }, {
+                text: '出版社统计(大于10本)',
+                subtext: '总计 ' + Object.keys(downloadJson).reduce(function (all, key) {
+                    return all + downloadJson[key];
+                }, 0),
+                x: '70%',
+                textAlign: 'center'
+            }, {
+                text: '定价区间统计',
+                subtext: '总计 ' + Object.keys(themeJson).reduce(function (all, key) {
+                    return all + themeJson[key];
+                }, 0),
+                x: '70%',
+                y: '50%',
+                textAlign: 'center'
+            }],
+            grid: [{
+                top: 50,
+                width: '50%',
+                bottom: '45%',
+                left: 10,
+                containLabel: true
+            }, {
+                top: '55%',
+                width: '50%',
+                bottom: 0,
+                left: 10,
+                containLabel: true
+            }],
+            xAxis: [{
+                type: 'value',
+                max: builderJson.all,
+                splitLine: {
+                    show: false
+                }
+            }, {
+                type: 'value',
+                max: builderJson.all,
+                gridIndex: 1,
+                splitLine: {
+                    show: false
+                }
+            }],
+            yAxis: [{
+                type: 'category',
+                data: Object.keys(builderJson.charts),
+                axisLabel: {
+                    interval: 0,
+                    rotate: 30
+                },
+                splitLine: {
+                    show: false
+                }
+                ,
+                offset:16
+            }, {
+                gridIndex: 1,
+                type: 'category',
+                data: Object.keys(builderJson.components),
+                axisLabel: {
+                    interval: 0,
+                    rotate: 30
+                },
+                splitLine: {
+                    show: false
+                }
+            }],
+            series: [{
+                type: 'bar',
+                stack: 'chart',
+                z: 3,
+                label: {
+                    normal: {
+                        position: 'right',
+                        show: true
+                    }
+                },
+                data: Object.keys(builderJson.charts).map(function (key) {
+                    return builderJson.charts[key];
+                })
+
+            }, {
+                type: 'bar',
+                stack: 'chart',
+                silent: true,
+                itemStyle: {
+                    normal: {
+                        color: '#eee'
+                    }
+                },
+                data: Object.keys(builderJson.charts).map(function (key) {
+                    return builderJson.all - builderJson.charts[key];
+                })
+            }, {
+                type: 'bar',
+                stack: 'component',
+                xAxisIndex: 1,
+                yAxisIndex: 1,
+                z: 3,
+                label: {
+                    normal: {
+                        position: 'right',
+                        show: true
+                    }
+                },
+                data: Object.keys(builderJson.components).map(function (key) {
+                    return builderJson.components[key];
+                })
+            }, {
+                type: 'bar',
+                stack: 'component',
+                silent: true,
+                xAxisIndex: 1,
+                yAxisIndex: 1,
+                itemStyle: {
+                    normal: {
+                        color: '#eee'
+                    }
+                },
+                data: Object.keys(builderJson.components).map(function (key) {
+                    return builderJson.all - builderJson.components[key];
+                })
+            }, {
+                type: 'pie',
+                radius: [0, '30%'],
+                center: ['75%', '25%'],
+                data: Object.keys(downloadJson).map(function (key) {
+                    return {
+                        name: key.replace('.js', ''),
+                        value: downloadJson[key]
+                    }
+                })
+            }, {
+                type: 'pie',
+                radius: [0, '30%'],
+                center: ['75%', '75%'],
+                data: Object.keys(themeJson).map(function (key) {
+                    return {
+                        name: key.replace('.js', ''),
+                        value: themeJson[key]
+                    }
+                })
+            }]
+        };
+        if (option && typeof option === "object") {
+            myChart.setOption(option, true);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+#excel_to_mongo_form.py
+#modify from github website
+
+import sys
+import os
+path = os.path.join(os.path.dirname(__file__), os.pardir)
+sys.path.append(path)
+
+import config
+import pymongo
+from math import isnan
+from pandas import DataFrame, read_excel
+
+lang = config.lang
+
+connectString = config.connectString
+databaseName = config.databaseName
+collectionName = "MetadataForm"
+tenantId = config.tenantId
+appCode = config.appCode
+
+if __name__=="__main__":
+    collection = config.connectMongo(connectString, databaseName, collectionName)
+    filename = f"{os.path.join(os.path.dirname(__file__), os.pardir)}/translate/{tenantId}-{appCode}-translate-form.xlsx"
+
+    column_list = []
+    df_column = read_excel(filename).columns
+    for i in df_column:
+        column_list.append(i)
+    converter = {col: str for col in column_list}
+    result = read_excel(filename, converters=converter,encoding="utf-8")
+
+    identifiers = ["TenantId", "AppCode", "FormName"]
+    subName = "FieldList"
+    subidentifiers = ["FieldId"]
+    fields = []
+    subfields = ["Label-" + lang]
+
+    if subName:
+        config.updateDocument(collection, result, fields, subfields, identifiers, subName, subidentifiers)
+    else:
+        config.updateDocument_nosub(collection, result, fields, identifiers)
+
+    config.updateDocument_structure(collection,result,lang)
+    print("success")

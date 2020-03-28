@@ -1,0 +1,810 @@
+[ERROR]2019-09-26 19:20:58,290: url is https://www.poplar.co.jp/book/search/result/archive/8101383.html.file name is 2nd_6. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:20:58,725: url is https://www.poplar.co.jp/book/search/result/archive/2083033.html.file name is 2nd_13. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:20:59,201: url is https://www.poplar.co.jp/book/search/result/archive/8111275.html.file name is 2nd_7. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:20:59,863: url is https://www.poplar.co.jp/book/search/result/archive/2900154.html.file name is 2nd_14. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:00,185: url is https://www.poplar.co.jp/book/search/result/archive/8111276.html.file name is 2nd_8. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:01,544: url is https://www.poplar.co.jp/book/search/result/archive/2116001.html.file name is 2nd_9. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:01,583: url is https://www.poplar.co.jp/book/search/result/archive/2083041.html.file name is 2nd_15. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:01,628: url is https://www.poplar.co.jp/book/search/result/archive/4900238.html.file name is 2nd_20. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:01,702: url is https://www.poplar.co.jp/book/search/result/archive/2083066.html.file name is 2nd_1. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:01,988: url is https://www.poplar.co.jp/book/search/result/archive/7206001.html.file name is 2nd_27. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:02,516: url is https://www.poplar.co.jp/book/search/result/archive/2116002.html.file name is 2nd_10. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:02,674: url is https://www.poplar.co.jp/book/search/result/archive/7205001.html.file name is 2nd_21. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:02,748: url is https://www.poplar.co.jp/book/search/result/archive/2900375.html.file name is 2nd_2. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:03,036: url is https://www.poplar.co.jp/book/search/result/archive/6032003.html.file name is 2nd_34. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:03,116: url is https://www.poplar.co.jp/book/search/result/archive/7206002.html.file name is 2nd_28. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:03,162: url is https://www.poplar.co.jp/book/search/result/archive/8101233.html.file name is 2nd_16. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:03,592: url is https://www.poplar.co.jp/book/search/result/archive/8008243.html.file name is 2nd_3. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:04,203: url is https://www.poplar.co.jp/book/search/result/archive/7205002.html.file name is 2nd_22. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:04,261: url is https://www.poplar.co.jp/book/search/result/archive/7206003.html.file name is 2nd_29. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:04,298: url is https://www.poplar.co.jp/book/search/result/archive/8101202.html.file name is 2nd_17. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:04,403: url is https://www.poplar.co.jp/book/search/result/archive/3210017.html.file name is 2nd_11. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:04,628: url is https://www.poplar.co.jp/book/search/result/archive/8008244.html.file name is 2nd_4. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:04,742: url is https://www.poplar.co.jp/book/search/result/archive/6032004.html.file name is 2nd_35. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:04,834: url is https://www.poplar.co.jp/book/search/result/archive/7193002.html.file name is 2nd_41. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:05,355: url is https://www.poplar.co.jp/book/search/result/archive/7206004.html.file name is 2nd_30. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:05,403: url is https://www.poplar.co.jp/book/search/result/archive/7205003.html.file name is 2nd_23. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:05,585: url is https://www.poplar.co.jp/book/search/result/archive/4900232.html.file name is 2nd_18. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:05,754: url is https://www.poplar.co.jp/book/search/result/archive/2900306.html.file name is 2nd_12. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:05,949: url is https://www.poplar.co.jp/book/search/result/archive/8101382.html.file name is 2nd_5. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:05,964: url is https://www.poplar.co.jp/book/search/result/archive/7183003.html.file name is 2nd_48. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:06,050: url is https://www.poplar.co.jp/book/search/result/archive/6032005.html.file name is 2nd_36. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:06,080: url is https://www.poplar.co.jp/book/search/result/archive/7193003.html.file name is 2nd_42. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:06,231: url is https://www.poplar.co.jp/book/search/result/archive/7206005.html.file name is 2nd_31. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:06,348: url is https://www.poplar.co.jp/book/search/result/archive/7205004.html.file name is 2nd_24. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:06,500: url is https://www.poplar.co.jp/book/search/result/archive/4900233.html.file name is 2nd_19. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:06,678: url is https://www.poplar.co.jp/book/search/result/archive/7168007.html.file name is 2nd_55. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:06,922: url is https://www.poplar.co.jp/book/search/result/archive/7145006.html.file name is 2nd_62. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:07,002: url is https://www.poplar.co.jp/book/search/result/archive/7168001.html.file name is 2nd_49. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:07,206: url is https://www.poplar.co.jp/book/search/result/archive/6032001.html.file name is 2nd_32. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:07,497: url is https://www.poplar.co.jp/book/search/result/archive/7205005.html.file name is 2nd_25. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:07,634: url is https://www.poplar.co.jp/book/search/result/archive/7102001.html.file name is 2nd_69. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:07,780: url is https://www.poplar.co.jp/book/search/result/archive/7179001.html.file name is 2nd_43. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:07,978: url is https://www.poplar.co.jp/book/search/result/archive/6032006.html.file name is 2nd_37. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:08,016: url is https://www.poplar.co.jp/book/search/result/archive/7168008.html.file name is 2nd_56. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:08,195: url is https://www.poplar.co.jp/book/search/result/archive/7145007.html.file name is 2nd_63. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:08,226: url is https://www.poplar.co.jp/book/search/result/archive/7168002.html.file name is 2nd_50. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:08,319: url is https://www.poplar.co.jp/book/search/result/archive/6032002.html.file name is 2nd_33. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:08,498: url is https://www.poplar.co.jp/book/search/result/archive/7205006.html.file name is 2nd_26. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:08,647: url is https://www.poplar.co.jp/book/search/result/archive/7102002.html.file name is 2nd_70. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:08,731: url is https://www.poplar.co.jp/book/search/result/archive/7179002.html.file name is 2nd_44. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:08,929: url is https://www.poplar.co.jp/book/search/result/archive/6032007.html.file name is 2nd_38. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:09,039: url is https://www.poplar.co.jp/book/search/result/archive/7145001.html.file name is 2nd_57. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:09,124: url is https://www.poplar.co.jp/book/search/result/archive/7103001.html.file name is 2nd_64. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:09,249: url is https://www.poplar.co.jp/book/search/result/archive/7168003.html.file name is 2nd_51. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:09,646: url is https://www.poplar.co.jp/book/search/result/archive/2084017.html.file name is 1st_4. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:09,698: url is https://www.poplar.co.jp/book/search/result/archive/7102003.html.file name is 2nd_71. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:09,714: url is https://www.poplar.co.jp/book/search/result/archive/7068003.html.file name is 2nd_76. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:09,963: url is https://www.poplar.co.jp/book/search/result/archive/7145002.html.file name is 2nd_58. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:10,115: url is https://www.poplar.co.jp/book/search/result/archive/6032008.html.file name is 2nd_39. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:10,286: url is https://www.poplar.co.jp/book/search/result/archive/7103002.html.file name is 2nd_65. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:10,356: url is https://www.poplar.co.jp/book/search/result/archive/7168004.html.file name is 2nd_52. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:10,496: url is https://www.poplar.co.jp/book/search/result/archive/7179003.html.file name is 2nd_45. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:10,599: url is https://www.poplar.co.jp/book/search/result/archive/2850020.html.file name is 1st_5. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:10,692: url is https://www.poplar.co.jp/book/search/result/archive/7102004.html.file name is 2nd_72. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:10,805: url is https://www.poplar.co.jp/book/search/result/archive/7145003.html.file name is 2nd_59. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:11,085: url is https://www.poplar.co.jp/book/search/result/archive/7193001.html.file name is 2nd_40. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:11,340: url is https://www.poplar.co.jp/book/search/result/archive/7103003.html.file name is 2nd_66. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:11,389: url is https://www.poplar.co.jp/book/search/result/archive/7168005.html.file name is 2nd_53. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:11,700: url is https://www.poplar.co.jp/book/search/result/archive/7183001.html.file name is 2nd_46. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:11,821: url is https://www.poplar.co.jp/book/search/result/archive/2900356.html.file name is 1st_6. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:11,991: url is https://www.poplar.co.jp/book/search/result/archive/7102005.html.file name is 2nd_73. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:12,088: url is https://www.poplar.co.jp/book/search/result/archive/7145004.html.file name is 2nd_60. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:12,357: url is https://www.poplar.co.jp/book/search/result/archive/7068004.html.file name is 2nd_77. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:12,401: url is https://www.poplar.co.jp/book/search/result/archive/4112016.html.file name is 1st_11. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:12,536: url is https://www.poplar.co.jp/book/search/result/archive/7103004.html.file name is 2nd_67. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:12,619: url is https://www.poplar.co.jp/book/search/result/archive/7168006.html.file name is 2nd_54. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:12,731: url is https://www.poplar.co.jp/book/search/result/archive/2900366.html.file name is 1st_7. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:12,867: url is https://www.poplar.co.jp/book/search/result/archive/7068001.html.file name is 2nd_74. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:13,014: url is https://www.poplar.co.jp/book/search/result/archive/7145005.html.file name is 2nd_61. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:13,237: url is https://www.poplar.co.jp/book/search/result/archive/7183002.html.file name is 2nd_47. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:13,446: url is https://www.poplar.co.jp/book/search/result/archive/7068005.html.file name is 2nd_78. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:13,618: url is https://www.poplar.co.jp/book/search/result/archive/4112017.html.file name is 1st_12. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:13,751: url is https://www.poplar.co.jp/book/search/result/archive/7103005.html.file name is 2nd_68. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:14,008: url is https://www.poplar.co.jp/book/search/result/archive/7201002.html.file name is 1st_18. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:14,144: url is https://www.poplar.co.jp/book/search/result/archive/2900367.html.file name is 1st_8. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:14,216: url is https://www.poplar.co.jp/book/search/result/archive/7068002.html.file name is 2nd_75. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:14,310: url is https://www.poplar.co.jp/book/search/result/archive/7203004.html.file name is 1st_25. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:14,395: url is https://www.poplar.co.jp/book/search/result/archive/7204005.html.file name is 1st_32. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:14,555: url is https://www.poplar.co.jp/book/search/result/archive/7068006.html.file name is 2nd_79. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:14,711: url is https://www.poplar.co.jp/book/search/result/archive/4900234.html.file name is 1st_13. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:14,749: url is https://www.poplar.co.jp/book/search/result/archive/8101378.html.file name is 1st_39. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:14,887: url is https://www.poplar.co.jp/book/search/result/archive/7201003.html.file name is 1st_19. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:15,267: url is https://www.poplar.co.jp/book/search/result/archive/2181.13.html.file name is 1st_46. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:15,387: url is https://www.poplar.co.jp/book/search/result/archive/2900369.html.file name is 1st_9. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:15,499: url is https://www.poplar.co.jp/book/search/result/archive/7203005.html.file name is 1st_26. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:15,568: url is https://www.poplar.co.jp/book/search/result/archive/8008135.html.file name is 1st_33. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:15,785: url is https://www.poplar.co.jp/book/search/result/archive/2083062.html.file name is 1st_1. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:15,942: url is https://www.poplar.co.jp/book/search/result/archive/8101379.html.file name is 1st_40. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:15,946: url is https://www.poplar.co.jp/book/search/result/archive/6029016.html.file name is 1st_14. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:15,999: url is https://www.poplar.co.jp/book/search/result/archive/7201004.html.file name is 1st_20. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:16,174: url is https://www.poplar.co.jp/book/search/result/archive/2181001.html.file name is 1st_47. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:16,295: url is https://www.poplar.co.jp/book/search/result/archive/2900374.html.file name is 1st_10. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:16,434: url is https://www.poplar.co.jp/book/search/result/archive/7203006.html.file name is 1st_27. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:16,544: url is https://www.poplar.co.jp/book/search/result/archive/8008207.html.file name is 1st_34. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:17,087: url is https://www.poplar.co.jp/book/search/result/archive/6032009.html.file name is 1st_15. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:17,142: url is https://www.poplar.co.jp/book/search/result/archive/2083064.html.file name is 1st_2. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:17,154: url is https://www.poplar.co.jp/book/search/result/archive/8101380.html.file name is 1st_41. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:17,529: url is https://www.poplar.co.jp/book/search/result/archive/7201005.html.file name is 1st_21. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:17,582: url is https://www.poplar.co.jp/book/search/result/archive/2181002.html.file name is 1st_48. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:17,641: url is https://www.poplar.co.jp/book/search/result/archive/2181007.html.file name is 1st_53. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:17,721: url is https://www.poplar.co.jp/book/search/result/archive/8008225.html.file name is 1st_35. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:17,763: url is https://www.poplar.co.jp/book/search/result/archive/7204001.html.file name is 1st_28. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:17,942: url is https://www.poplar.co.jp/book/search/result/archive/2083065.html.file name is 1st_3. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:18,147: url is https://www.poplar.co.jp/book/search/result/archive/7147009.html.file name is 1st_16. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:18,208: url is https://www.poplar.co.jp/book/search/result/archive/8111273.html.file name is 1st_42. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:18,579: url is https://www.poplar.co.jp/book/search/result/archive/2181003.html.file name is 1st_49. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:18,839: url is https://www.poplar.co.jp/book/search/result/archive/2181008.html.file name is 1st_54. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:18,945: url is https://www.poplar.co.jp/book/search/result/archive/8008227.html.file name is 1st_36. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:19,115: url is https://www.poplar.co.jp/book/search/result/archive/2181014.html.file name is 1st_60. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:19,180: url is https://www.poplar.co.jp/book/search/result/archive/7204002.html.file name is 1st_29. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:19,414: url is https://www.poplar.co.jp/book/search/result/archive/7201001.html.file name is 1st_17. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:19,457: url is https://www.poplar.co.jp/book/search/result/archive/7203001.html.file name is 1st_22. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:19,559: url is https://www.poplar.co.jp/book/search/result/archive/8201166.html.file name is 1st_43. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:19,637: url is https://www.poplar.co.jp/book/search/result/archive/2181004.html.file name is 1st_50. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:19,847: url is https://www.poplar.co.jp/book/search/result/archive/2181009.html.file name is 1st_55. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:19,897: url is https://www.poplar.co.jp/book/search/result/archive/8008238.html.file name is 1st_37. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:20,070: url is https://www.poplar.co.jp/book/search/result/archive/2181015.html.file name is 1st_61. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:20,154: url is https://www.poplar.co.jp/book/search/result/archive/7204003.html.file name is 1st_30. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:20,467: url is https://www.poplar.co.jp/book/search/result/archive/2181021.html.file name is 1st_67. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:20,679: url is https://www.poplar.co.jp/book/search/result/archive/7203002.html.file name is 1st_23. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:20,825: url is https://www.poplar.co.jp/book/search/result/archive/8201169.html.file name is 1st_44. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:21,058: url is https://www.poplar.co.jp/book/search/result/archive/2181005.html.file name is 1st_51. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:21,174: url is https://www.poplar.co.jp/book/search/result/archive/2181010.html.file name is 1st_56. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:21,268: url is https://www.poplar.co.jp/book/search/result/archive/8008240.html.file name is 1st_38. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:21,358: url is https://www.poplar.co.jp/book/search/result/archive/2181016.html.file name is 1st_62. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:21,430: url is https://www.poplar.co.jp/book/search/result/archive/7204004.html.file name is 1st_31. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:21,517: url is https://www.poplar.co.jp/book/search/result/archive/2181022.html.file name is 1st_68. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:21,755: url is https://www.poplar.co.jp/book/search/result/archive/7203003.html.file name is 1st_24. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:21,792: url is https://www.poplar.co.jp/book/search/result/archive/8201173.html.file name is 1st_45. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:21,912: url is https://www.poplar.co.jp/book/search/result/archive/2181006.html.file name is 1st_52. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:22,025: url is https://www.poplar.co.jp/book/search/result/archive/2181011.html.file name is 1st_57. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:22,153: url is https://www.poplar.co.jp/book/search/result/archive/2181028.html.file name is 1st_74. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:22,379: url is https://www.poplar.co.jp/book/search/result/archive/2181017.html.file name is 1st_63. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:22,513: url is https://www.poplar.co.jp/book/search/result/archive/2181023.html.file name is 1st_69. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:22,544: url is https://www.poplar.co.jp/book/search/result/archive/2181035.html.file name is 1st_81. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:22,872: url is https://www.poplar.co.jp/book/search/result/archive/2181012.html.file name is 1st_58. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:23,055: url is https://www.poplar.co.jp/book/search/result/archive/2181029.html.file name is 1st_75. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:23,226: url is https://www.poplar.co.jp/book/search/result/archive/2181018.html.file name is 1st_64. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:23,343: url is https://www.poplar.co.jp/book/search/result/archive/2181024.html.file name is 1st_70. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:23,461: url is https://www.poplar.co.jp/book/search/result/archive/2181036.html.file name is 1st_82. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:23,687: url is https://www.poplar.co.jp/book/search/result/archive/2181013.html.file name is 1st_59. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:23,967: url is https://www.poplar.co.jp/book/search/result/archive/2181030.html.file name is 1st_76. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:24,151: url is https://www.poplar.co.jp/book/search/result/archive/2181019.html.file name is 1st_65. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:24,373: url is https://www.poplar.co.jp/book/search/result/archive/2181037.html.file name is 1st_83. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:24,410: url is https://www.poplar.co.jp/book/search/result/archive/2181025.html.file name is 1st_71. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:24,833: url is https://www.poplar.co.jp/book/search/result/archive/2181031.html.file name is 1st_77. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:25,051: url is https://www.poplar.co.jp/book/search/result/archive/2181020.html.file name is 1st_66. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:25,214: url is https://www.poplar.co.jp/book/search/result/archive/2181026.html.file name is 1st_72. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:25,691: url is https://www.poplar.co.jp/book/search/result/archive/2181032.html.file name is 1st_78. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:26,009: url is https://www.poplar.co.jp/book/search/result/archive/2181027.html.file name is 1st_73. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:26,512: url is https://www.poplar.co.jp/book/search/result/archive/2181033.html.file name is 1st_79. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
+[ERROR]2019-09-26 19:21:27,407: url is https://www.poplar.co.jp/book/search/result/archive/2181034.html.file name is 1st_80. details:'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "c:\Users\mark ya wang\Desktop\PythonScrapy\download_excel\new_download.py", line 26, in download
+    file_name =f'{file_name_prefix} {soup.text}'
+AttributeError: 'NoneType' object has no attribute 'text'
