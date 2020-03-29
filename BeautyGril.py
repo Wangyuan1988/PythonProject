@@ -4,6 +4,8 @@ import requests
 import datetime
 import re
 from multiprocessing import  Pool, cpu_count
+from PIL import Image
+from pathlib import Path
 
 def get_model_name(soup):
     div=soup.find("div",{"class":"tuji"})
@@ -41,7 +43,15 @@ def download_pic(id):
     pool.join()
 
 def download_single_pic(id,i,name):
-    urllib.request.urlretrieve( url=f'https://ii.hywly.com/a/1/{id}/{i}.jpg', filename=f'F:\\~Picture\\temp\\{name}_{id}_{i}.jpg')
+    urllib.request.urlretrieve( url=f'https://ii.hywly.com/a/1/{id}/{i}.jpg', filename=f'F:\\~Picture\\_temp\\{name}_{id}_{i}.jpg')
+
+def seperatePic(filepath):
+    with Image.open(filepath) as img:
+        width, height = img.size
+    if width<height:
+        Path(filepath).rename(filepath.replace('_temp','_height'))
+    else:
+        Path(filepath).rename(filepath.replace('_temp','_width'))        
 
 if __name__ == "__main__":
     print("Enter/Paste your content. Ctrl-Z to save it.")
@@ -60,4 +70,8 @@ if __name__ == "__main__":
         download_pic(id)
         count+=1
 
-    print('Enjoy the girls')
+    pathlist = Path(r'F:\~Picture\_temp').glob('**/*.*')
+    for path in pathlist:
+        seperatePic(str(path))
+
+    input('Enjoy the girls ')
