@@ -10,8 +10,8 @@ class QuotesSpider(scrapy.Spider):
         urls = [
         ] 
 
-        for i in range(53100,53488+1):
-            yield scrapy.Request("http://www.uuga.info/thread-{}-1-1.html".format(i),callback=self.parse)
+        for i in range(53488,55138+1):
+            yield scrapy.Request("http://www.p7an.info/thread-{}-1-1.html".format(i),callback=self.parse)
 
     def parse(self, response):
         item = FunplusItem()
