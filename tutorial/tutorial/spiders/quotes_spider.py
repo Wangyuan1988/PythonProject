@@ -10,7 +10,7 @@ class QuotesSpider(scrapy.Spider):
         urls = [
         ] 
 
-        for i in range(53488,55138+1):
+        for i in range(55087,55087+1):# 55485
             yield scrapy.Request("http://www.p7an.info/thread-{}-1-1.html".format(i),callback=self.parse)
 
     def parse(self, response):

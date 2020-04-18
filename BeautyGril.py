@@ -6,6 +6,9 @@ import re
 from multiprocessing import  Pool, cpu_count
 from PIL import Image
 from pathlib import Path
+import socket
+
+list=[]
 
 def get_model_name(soup):
     div=soup.find("div",{"class":"tuji"})
@@ -43,7 +46,12 @@ def download_pic(id):
     pool.join()
 
 def download_single_pic(id,i,name):
-    urllib.request.urlretrieve( url=f'https://ii.hywly.com/a/1/{id}/{i}.jpg', filename=f'F:\\~Picture\\_temp\\{name}_{id}_{i}.jpg')
+    socket.setdefaulttimeout(3)
+    try:
+        urllib.request.urlretrieve( url=f'https://ii.hywly.com/a/1/{id}/{i}.jpg', filename=f'F:\\~Picture\\_temp\\{name}_{id}_{i}.jpg')
+    except Exception as e:
+        list.append(F'https://ii.hywly.com/a/1/{id}/{i}.jpg time out')
+        pass
 
 def seperatePic(filepath):
     with Image.open(filepath) as img:
@@ -74,4 +82,4 @@ if __name__ == "__main__":
     for path in pathlist:
         seperatePic(str(path))
 
-    input('Enjoy the girls ')
+    print(list)
