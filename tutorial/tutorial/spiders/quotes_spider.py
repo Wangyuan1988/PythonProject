@@ -10,13 +10,16 @@ class QuotesSpider(scrapy.Spider):
         urls = [
         ] 
 
-        for i in range(55087,55087+1):# 55485
+        for i in range(55485,55804+1):# 55485
             yield scrapy.Request("http://www.p7an.info/thread-{}-1-1.html".format(i),callback=self.parse)
 
     def parse(self, response):
         item = FunplusItem()
         htmlResult = []
         for x in scrapy.selector.Selector(response).css("td .t_f::text").extract():
+            if x.strip():
+                htmlResult.append(x.strip())
+        for x in scrapy.selector.Selector(response).css("td .t_f").extract():
             if x.strip():
                 htmlResult.append(x.strip())
         item['Title'] = scrapy.selector.Selector(response).css("title::text")[0].extract()
